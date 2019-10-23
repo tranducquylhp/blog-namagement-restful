@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 public/ 
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/blog-restful-SNAPSHOT.jar
